@@ -1,6 +1,8 @@
 
 # React + Flask starter kit
 
+A quick starter repo that includes Flask and React, with Babel and Webpack.
+
 ## Setup
 
 For the backend:
