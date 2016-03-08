@@ -1,5 +1,6 @@
 import Hello from './Hello';
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-React.render(<Hello/>, document.getElementById('reactEntry'));
+ReactDOM.render(<Hello/>, document.getElementById('reactEntry'));
 
