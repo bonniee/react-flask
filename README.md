@@ -3,6 +3,11 @@
 
 A quick starter repo that includes Flask and React, with Babel and Webpack.
 
+## Prerequisites
+
+- `npm`
+- `pip`
+
 ## Setup
 
 For the backend:
