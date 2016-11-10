@@ -15,7 +15,8 @@
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
-    "webpack": "^1.12.12"
+    "webpack": "^1.12.12",
+    "webpack-livereload-plugin": "^0.9.0"
   },
   "dependencies": {
     "react": "^0.14.7",
