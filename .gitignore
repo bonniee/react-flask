@@ -1,5 +1,6 @@
 .DS_Store
 venv
+env/
 node_modules
 static/bundle.js
 
