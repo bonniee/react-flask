@@ -5,20 +5,26 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development --hot --inline",
     "start": "python app.py"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.4.5",
-    "babel-loader": "^6.2.1",
+    "babel-loader": "^7.*",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
-    "webpack": "^1.12.12"
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   }
 }
